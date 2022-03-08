@@ -1,0 +1,45 @@
+{
+  "personas": [
+    {
+      "usuario": "Usuario2",
+      "apellido": "Hernández",
+      "contrasenia": "segura",
+      "nombre": "Manuel",
+      "correoEmpresa": "m@empresa.com",
+      "correoPersonal": "m@personal.com",
+      "ciudad": "Madrid",
+      "urlImagen": "url",
+      "fechaCreacion": "2022-08-03",
+      "fechaFin": "2022-09-03",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "usuario": "Usuario2",
+      "apellido": "Montero",
+      "contrasenia": "segura",
+      "nombre": "Carlos",
+      "correoEmpresa": "c@empresa.com",
+      "correoPersonal": "c@personal.com",
+      "ciudad": "Madrid",
+      "urlImagen": "url",
+      "fechaCreacion": "2022-08-03",
+      "activado": "false",
+      "fechaFin": "2022-08-03"
+    },
+    {
+      "id": 3,
+      "usuario": "Usuario3",
+      "apellido": "Hernández",
+      "contraseni": "segura",
+      "nombre": "Julio",
+      "correoEmpresa": "j@empresa.com",
+      "correoPersonal": "j@personal.com",
+      "ciudad": "Madrid",
+      "urlImagen": "url",
+      "fechaCreacion": "2022-08-03",
+      "activado": "true",
+      "fechaFin": "2022-08-03"
+    }
+  ]
+}

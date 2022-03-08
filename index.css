@@ -1,0 +1,63 @@
+.contenedorPrincipal{
+    font-family: "Courier";
+    font-weight: bolder;
+    text-align: center;
+    background-color:lightblue;
+    width: 40rem;
+    margin: 0 auto 0 auto;
+    padding-bottom: 1rem;
+
+}
+.formulario{
+    background-color: lightgrey;
+    padding: 0.25rem;
+    margin: 0 auto 0 auto;
+    width: 24rem;
+    border: solid 4px mediumslateblue;
+    border-radius: 5px;
+}
+.tituloFormulario{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+i {
+    font-size: 30px;
+    color: #6696FF;
+}
+.camposFormulario {
+    padding-top: 1.25rem;
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+}
+.campoUsuario,
+.campoApellido,
+.campoContraseña,
+.campoNombre,
+.campoEmailCompania,
+.campoEmailPersonal,
+.campoCiudad,
+.campoImagen,
+.campoFechaCreacion,
+.campoActivado,
+.campoFechaFin {
+    display:flex;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+}
+.botones{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+.editar,
+.limpiar{
+    margin: 0.5rem;
+    font-family: courier;
+    border: solid 1px whitesmoke;   
+}
+.editar{
+    background-color: plum;
+}
+.limpiar{
+    background-color: lemonchiffon;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1.3 - Formulario Reactivo</title>
+
+    <link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="contenedorPrincipal">
+		<div class="tituloFormulario">
+			<h1>Personas</h1>
+			<!-- <i class="fa-solid fa-user"></i> -->
+			<span>A continuación inserte sus datos</span>
+			</div> 
+        <form class="formulario">
+                <div class="camposFormulario">
+                    <div class="campoUsuario">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario">
+                    </div>
+                    <div class="campoApellido">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido">
+                    </div>
+                    <div class="campoContraseña">
+                        <label for="contrasenia">Contraseña</label>
+                        <input type="password" id="contrasenia">
+                    </div>
+                    <div class="campoNombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="nombre" id="nombre">
+                    </div>
+                    <div class="campoEmailCompania">
+                        <label for="emailCompania">Email de la compañía</label>
+                        <input type="email" id="emailCompania">
+                    </div>
+                    <div class="campoEmailPersonal">
+                        <label for="emailpersonal">Email personal</label>
+                        <input type="email" id="emailPersonal">
+                    </div>
+                    <div class="campoCiudad">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" id="ciudad">
+                    </div>
+                    <div class="campoImagen">
+                        <label for="imagen">Url de la imagen</label>
+                        <input type="text" id="imagen">
+                    </div>
+                    <div class="campoFechaCreacion">
+                        <label for="fechacreacion">Fecha creación</label>
+                        <input type="date" id="fechaCreacion">
+                    </div>
+                    <div class="campoActivado">
+                        <label for="activado">Activado</label>
+                        <input class="checkAtivado" type="checkbox" id="activo">
+                    </div>
+                    <div class="campoFechaFin">
+                        <label for="fechaFin">Fecha finalización</label>
+                        <input type="date" id="fechaFin">
+                    </div>
+                    <div class="botones">
+                        <input class="editar" type="submit" value="Editar">
+                        <input class="limpiar" type="reset" value="Limpiar">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script type="module" src="index.js"></script>
+</body>
+</html>
